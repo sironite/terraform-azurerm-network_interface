@@ -27,9 +27,11 @@ variable "public_ip_address_id" {
   type        = string
   description = "The ID of the public IP address to associate with the network interface."
   sensitive   = false
+  default     = null
 }
 variable "private_ip_address_allocation" {
   type        = string
   description = "The method to use for allocating the private IP address of the network interface."
   sensitive   = false
+  default     = "Dynamic"
 }
