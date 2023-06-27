@@ -48,6 +48,7 @@ No modules.
 | subnet\_id | The ID of the subnet where the network interface will be created. | `string` | yes |
 | private\_ip\_address\_allocation | The method to use for allocating the private IP address of the network interface. | `string` | no |
 | public\_ip\_address\_id | The ID of the public IP address to associate with the network interface. | `string` | no |
+| tags | Tags to associate with the Network Interface | `map(string)` | no |
 
 ## Outputs
 

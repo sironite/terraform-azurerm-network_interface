@@ -35,3 +35,9 @@ variable "private_ip_address_allocation" {
   sensitive   = false
   default     = "Dynamic"
 }
+variable "tags" {
+  description = "Tags to associate with the Network Interface"
+  type        = map(string)
+  default     = {}
+  sensitive   = false
+}
