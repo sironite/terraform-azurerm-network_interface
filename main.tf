@@ -1,7 +1,7 @@
 # This resource block defines an Azure network interface.
 resource "azurerm_network_interface" "this" {
   # The name of the network interface.
-  name = nic_name
+  name = var.nic_name
   # The location of the network interface.
   location = var.location
   # The name of the resource group that the network interface belongs to.
