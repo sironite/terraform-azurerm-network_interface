@@ -18,8 +18,10 @@ resource "azurerm_network_interface" "this" {
     # The method used to allocate the private IP address for the network interface.
     private_ip_address_allocation = var.private_ip_address_allocation
   }
-}
-
+  
   # The name of the resource group that the network interface belongs to.
   tags = var.tags
+
+}
+
 
